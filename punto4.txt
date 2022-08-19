@@ -1,0 +1,10 @@
+function myarray ([]){
+
+    myarray = ["pedro","juan","lucas","tomas"]
+    nuevoarray = []
+
+    return nuevoarray = myarray.slice(-3)
+
+}
+
+console.log(myarray([]))

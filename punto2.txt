@@ -1,0 +1,6 @@
+function indicador (a){
+    a = 15
+    return typeof(a)
+}
+    
+console.log(indicador())

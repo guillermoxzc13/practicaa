@@ -1,0 +1,23 @@
+array = [1,2,3,4,5]
+
+function sumaa (array){
+    let suma= 0
+    for(i=0;i<array.length;i++){
+        suma += array[i]
+    }
+    return suma
+}
+
+function promedio (array){
+    let suma= 0
+    let promedio = 0
+    for(i=0;i<array.length;i++){
+        suma += array[i]
+        promedio = suma / array.length
+    }
+    return promedio
+}
+
+console.log(promedio(array))
+
+console.log(sumaa(array))

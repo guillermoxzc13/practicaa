@@ -1,0 +1,12 @@
+function operaciones (a,b,c,d,e,f){
+
+    op1= a+b;
+    op2= op1-c
+    op3= op2*d
+    op4 = op3/e
+    op5 = op4**f
+    
+    return op5
+
+}
+console.log(operaciones(3,7,3,4,5,6))

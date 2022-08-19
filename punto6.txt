@@ -1,0 +1,13 @@
+arr = [1,1,2,4,5,6]
+b= 5
+
+function eliminar (arr,b){
+    for (i=0;i < arr.length;i++) {
+        if (arr[i] === b){
+            arr.splice(i,1)
+        }
+    }
+    return arr
+}
+
+console.log(eliminar(arr,b))

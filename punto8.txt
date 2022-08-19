@@ -1,0 +1,17 @@
+const personas = {
+    nombre:"guille",
+    apellido:"lee",
+    edad:22
+}
+
+function asd (objeto,string){
+
+    for(key in objeto){
+        if(key === string){
+            return objeto[key]
+        }
+    }
+
+}
+
+console.log(asd(personas,"edad"))

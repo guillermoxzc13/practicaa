@@ -1,0 +1,9 @@
+function myarray ([]){
+
+    myarray = ["pedro","juan","lucas","tomas"]
+    
+
+    return myarray.sort()
+
+}
+ console.log(myarray([]))

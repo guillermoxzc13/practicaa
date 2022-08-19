@@ -1,0 +1,19 @@
+const numeros ={
+
+    num1:1,
+    num2:1,
+    num3:1,
+    num4:1,
+    num5:1
+}
+
+function suma (objeto){
+    let suma= 0
+    for(key in objeto){
+        suma += numeros[key]
+    }
+    return suma
+
+}
+
+console.log(suma(numeros))
